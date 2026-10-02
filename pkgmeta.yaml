@@ -4,16 +4,19 @@ required-dependencies:
   - DivineWindow
 
 ignore:
+  - LICENSE
+  - README.md
   - pkgmeta.yaml
   - .gitignore
-  - .github
-  - .release
+  - node_modules
+  - package.json
+  - package-lock.json
+  - scripts
+  - tests
+  - pnpm-lock.yaml
+  - public/Src
+  - .idea
   - .vscode
-  - .gitignore
-  - .vscode
-  - .gitignore
-  - .git
-  - Thumbs.db
   - .DS_Store
 
 license-output: LICENSE.txt
